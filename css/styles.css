@@ -1,0 +1,355 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+/* Typography */
+h1,h2,h3 {
+    text-align: left;
+    font-family: Calibri, Futura, Helvetica, Arial,Sans-serif;
+}
+
+.header h1{
+    text-align: left;
+    font-family: Calibri, Book Antiqua, Tahoma, Verdana;
+}  
+
+
+.container-fluid {
+    padding: 0em;
+    position: relative;
+}
+
+.projectName {
+    text-transform: uppercase;
+}
+
+.projectName a{
+    color: white;
+}
+
+.carousel-caption {
+    top: 40%;  
+    transform: translate(-50%, -50%);
+    display: block;
+    left: 50%;
+    width: 80%;
+    filter: drop-shadow(10px 10px 2px #000);      
+}
+
+.nav {
+    /* display: inline-block;*/
+    /*position: fixed;*/
+    width: auto; 
+    top: 0;
+ 
+    /* padding: 20px;*/
+}
+
+ .nav ul {
+    /*list-style-type: none;*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav li { float:down; width:auto; }
+
+.nav li a {
+    display: inline-block;
+    color: white;
+    text-align: centre;
+    padding: 1.2em 1.2em;
+    text-decoration: none;
+    transition: color 1000ms;
+    -webkit-transition: color 1000ms;
+}
+
+.navbar-inverse .navbar-nav > .active  > a:hover { color: #f50; }
+.navbar-inverse .navbar-nav > li > a:hover { color: #f50; }
+.navbar-nav a:hover {
+    color: #f50;  
+    text-decoration: none;
+}  
+
+.container {
+    padding: 0em;
+    position: relative;
+}
+
+.anchor {
+    padding-top: 7.75em; 
+}
+
+/*///////////  Work /////  */
+.work {
+    background-color: lightblue;
+}
+
+.work h1 {
+  font-family: 'Audiowide', cursive, sans-serif;
+  text-align: center;
+  filter: drop-shadow(10px 10px 2px #000);  
+  margin-top: 57px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.work  h2{
+    text-align: center; 
+}
+.work  img {
+  padding: 5px;
+  margin: 5px;
+  width: auto;
+  height: auto; 
+  filter: drop-shadow(10px 10px 2px #000);   
+}
+
+
+
+/*////////////////////////////
+///////////// Contact_page ///*/
+#contact {
+    width: 100%;
+    margin: 0 auto;
+    font-family: Calibri, Book Antiqua, Tahoma, Verdana;
+    font-size: 1.125em;
+    text-align: left;
+    background-image: url("../img/little-2.jpg");  
+    background-attachment: fixed;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
+    background-size:cover;
+}
+
+#contact .column {
+    width: 70%;
+    height: auto;
+    display: inline-block; 
+    float: bottom;
+    padding: 0.625em 1.25em 0.625em 1.875em ;
+}
+
+#contact .email {
+    font-family: Calibri;
+    font-size: 1.125em;   /* 18px  */
+    font-weight: 400;
+    padding: 0.625em 1.25em 0.625em 1.875em ;
+    margin-left: 2em;
+    background-color: #f9c5bc; 
+    color: #654321;
+}
+
+#contact .mobile {
+    font-family: Calibri;
+    font-size: 1.125em;   /* 18px  */
+    font-weight: 400;
+    margin-left: 2em;
+    background-color: #f9c5bc; 
+    color: #654321;
+}
+
+#contact .thanks {
+    font-family: Calibri;
+    font-size: 1.125em;   /* 18px  */
+    font-weight: 400;
+}
+
+
+/* //////////// FAQ.html /////// */
+#faq {
+    width: 100%;
+    margin: 0 auto;
+    font-family: Calibri, Book Antiqua, Tahoma, Verdana;
+    font-size: 1.125em;
+    text-align: left;  
+    background-image: url("../img/beach-sand-rock.jpg"); /* no-repeat center center fixed; */
+    background-attachment: fixed;    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
+    background-size:cover;
+}
+
+#faq .panel-default {
+    width: 70%;
+    height: auto;
+    display: inline-block; 
+    float: bottom;
+    padding: 0.625em 1.25em 0.625em 1.25em ;
+    margin-left: 2em;
+}
+
+#faq .panel-heading {
+    background-color: #f9c5bc;
+    color: #654321;
+}
+
+#faq .panel-title {
+    font-family: Calibri;
+    font-size: 1.125em;   /* 18px  */
+    font-weight: 400;
+}
+
+#faq .panel-body {
+    font-family: Calibri;
+    font-size: 1em;   /* 16px  */
+    font-weight: 400;
+}
+
+/* //////////// About.html /////// */
+#about { 
+    width: 100%;
+    margin: 0 auto;
+    font-family: Calibri, Book Antiqua, Tahoma, Verdana;
+    font-size: 1.125em;
+    text-align: left;
+    background: url("../img/waves.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
+    background-size:cover;
+}
+
+#about-c1{
+    /*padding: 10px 20px; */
+    padding: 0.625em 1.25em 0.625em 1.875em ;
+    margin-left: 1em;
+}
+
+#about-c2{
+    padding: 0.625em 1.25em 0.625em 1.875em ;
+    margin-left: 1em;
+}
+#about-c3 {
+    padding: 0.625em 1.25em 0.625em 1.875em ;
+    margin-left: 1em;
+    font-size: 13px;
+    color:brown;
+    background-color: #5AD4C2;
+}
+
+#skill-list {
+    padding: 0.625em 1.25em 0.625em 1.875em ;
+    margin-left: 1em;
+    /*background-color: #5AD4C2; */
+    color: #FFF;
+    text-transform: none;   
+}
+
+.about-text {
+    width: 70%;
+    height: auto;
+    display: inline-block; 
+    float: bottom;
+    font-family: Calibri, Book Antiqua, Tahoma, Verdana;
+    font-size: 1em;   /* 16px  */ 
+    font-weight: 400;
+    padding: 0.625em 1.25em 0.625em 1.875em ;
+    margin-left: 1em;
+}
+
+/*/////  back to top button   www.menucool.com /////*/
+#backtop {
+    position: fixed;
+    left:auto; 
+    right: 20px;top:auto;bottom: 20px;
+	outline: none;
+    overflow:hidden;
+    color:#fff;
+    text-align:center;
+    background-color:rgba(49,79,96,0.84);
+    height:40px;
+    width:40px;
+    line-height:40px;
+    font-size:14px;
+    border-radius:2px;
+    cursor:pointer;
+    transition:all 0.3s linear;
+    z-index:999999;
+
+    opacity:1;
+    display:none;
+}
+
+#backtop:hover {
+    background-color:#27CFC3;
+ }
+
+ #backtop.mcOut {
+    opacity:0;
+ }
+
+.wrapper-video {
+    font-size: 0.9em;  
+    margin: auto;
+    padding: 3.625em 4.25em 3.625em 4.875em ;
+  /*  width: 400px;
+    height: 350px; */
+}
+
+/*.embed-responsive-item {
+    width:  50%;
+    height: 50%;
+}  */
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.footer {
+    background:  white;     
+    font-size: 0.8em;  
+  /*  height: 50px;  */
+    width: auto;
+   /* padding:5px; */ 
+    margin: auto;    
+    text-align:center;
+
+ }
+
+ .page-footer-link {
+    float: bottom ; 
+    align-content: center; 
+    width: auto;
+ }
+
+.page-footer-link a:link {
+    color: blue;
+}  
+
+.page-footer-link a:active {
+    color: red;
+}  
+
+.page-footer-link a:visited {
+    color: green;
+}  
+
+.page-footer-link a:hover {
+    color: #f50;  
+}
+
+ /*////////////////*/
+
+@media (max-width:30em) {
+    body {
+        position:relative;
+        /*background-color: red; */
+    } 
+}
