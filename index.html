@@ -233,7 +233,7 @@
         My hobbies are gardening, cooking and looking after my fishes 
     </i></p>
      </div>
-        <br/> <br/> <br/>                 
+             
  </div> <!--  end container-fluid  -->
  <!-- end of about.html  -->
 
@@ -250,10 +250,8 @@
         </center> 
         </p>
       </div><!-- end header -->
-
+<hr>
     </div><!-- end of work1 container-->
-
-
       
     <div class="container-fluid anchor work" id="work2">
       <div class="header" id="work-header">
@@ -277,37 +275,69 @@
           <img src="img/gingerkitten.jpg" class="img-responsive img-thumbnail">
           <p><center> Project4 </center></p>
         </div>
- 
       </div>
     </div><!-- end of work2 container-->
-  
+
        
 <!-- begin of contact.html-->
-<div class="container anchor" id="contact" >
-    <div class="header">
-    <h1> <b> &nbsp; &nbsp; &nbsp;Contact Me </b></h1> 
-    <br/>
-    </div>
+<div class="container-fluid anchor" id="contact" >
+     <div class="row" >
+        <div class="col-md-6 col-lg-6 col-xs-12" id ="contact-info" >
+           <div class="header">
+             <h1> <b>&nbsp; &nbsp;&nbsp;Contact </b></h1> 
+             <h3> &nbsp; &nbsp; &nbsp; Drop me a line </h3>      
+           </div>
 
-    <h3> &nbsp; &nbsp; &nbsp; Drop me a line </h3>
-        <div class="email column" >
-                Have you found any common interest or hobbies to share. Or do you have any questions about programming, gardening, or cooking - I love Aussie, Vietnamese and Thai food and will add my favourite recipes soon - then drop me a line. I would also love to see your marine fishes, tropical fishes, or aquatic plants.  
-                <p>
-                <a href= href="mailto:phammills@gmail.com"> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  
-                </a>
-                  Email Me: <b> <a href="mailto:phammills@gmail.com"> phammills@gmail.com </a> </b>
-                </p>
+          <div class="myContact column">
+            Have you found any common interest or hobbies to share. 
+            Or do you have any questions about programming, gardening, or cooking - 
+            I love Aussie, Vietnamese and Thai food and will add my favourite recipes soon. 
+            I would also like to see your marine fishes, tropical fishes, or aquatic plants.  
+            <br>
+              <p><b><span class="glyphicon glyphicon-home"></span>&nbsp; 1 Santuary street Perth city, Australia</b></p>
+              <p><b><span class="glyphicon glyphicon-earphone"></span>&nbsp;W:(+61)  8123 45678</b></p>
+
+              <p><b><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>M:(+61) 0123 4567891</b></p>
+              <a href="mailto:phammills@gmail.com"  aria-hidden="true">
+                <p><span class="glyphicon glyphicon-envelope"></span> &nbsp;phammills@gmail.com</p>
+              </a>
+          </div>
+      </div><!-- end of col -->
+
+
+      <div class="col-md-6 col-lg-6 col-xs-12" id="contact-form">    
+        <form> 
+          <div class="form-group " >
+            <label for="Name">Your Name *</label>  
+            <input class="form-control message-box" type="text" id="Name" title="Please enter your name" minlength="2" maxlength="30" required="required" title="Required Information" placeholder="Your name" >
+          </div>
+          <div class="form-group " >
+            <label for="Name">Company or Organisation </label>  
+            <input class="form-control message-box" type="text" id="Name" title="Please enter your company or organisation name" minlength="10" maxlength="40" placeholder="Your company or organisation"  >
+          </div>  
+          <div class="form-group">
+              <label for="phone">Your Phone Number</label>
+              <input class="form-control" id="phone" type="tel" maxlength="100" placeholder="e.g. +99 888-888-8888" title="Desktop Phone or Mobile Phone" placeholder="Your mobile or phone number" >
+            </div>
+         <div class="form-group " >   
+            <label for="Email">Email address *</label>       
+            <input  class="form-control message-box" title="Please enter your email address" id="Email" type="email" required="required" title="Required Information" placeholder="Your Email address" >
+         </div>
+         <div class="form-group " >  
+           <label for="Message">Your Message</label>
+            <textarea class="form-control message-box" id="Message" placeholder="Your message" style="resize: none" cols="40" rows="5" maxlength="200" title="Please enter your message - Maximum message length is 200"></textarea>
+          </div>
+        <div class="submit-button" >
+          <button type="submit" class="btn btn-default"><b>Send</b></button>
         </div>
-    <h3> &nbsp; &nbsp; &nbsp;  Send me text on  </h3>
-    <div class="mobile column">
-    <span class="glyphicon glyphicon-phone" aria-hidden="true"> </span> 
-       <b>Mob: (+61) 406669162 </b>
-    </div>  
-    <div class="thanks"> 
-    <h3> &nbsp; &nbsp; &nbsp; Thanks for visting and see you soon. </h3>
-     <br/> <br/> <br/> <br/>  <br/>       
-    </div>
- </div>  <!-- end of contact.html-->
+        <br/>
+        </form>
+      </div>  <!-- end col  -->
+         
+   </div>  <!-- end row  --> 
+</div>   <!-- end of container-fluid  contact -->
+
+ <!-- end of contact.html  -->
 
 <!-- beginning of faq.html -->
 
@@ -378,7 +408,7 @@
 <br/><br/>
 
 <!-- 4:3 aspect ratio -->
-<dir class="wrapper-video" >
+<dir class="wrapper-video">
 
  <p><centre>Published on 4 Aug 2016 - 
 What should you learn in 2016/2017?  This video gives you a complete roadmap !
@@ -390,11 +420,9 @@ View the mindmap: <a href="https://coggle.it/diagram/Vz9LvW8byvN0I38x"> <b>Coggl
 </dir>  
 <hr>
 
-
 <!--  Page footer  -->
  <footer>  
     <div class="footer" > 
-
 
     <!--
     <div class="fb-like" data-href="https://millsph.github.io/WebDev/" data-width="100" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>

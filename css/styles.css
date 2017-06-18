@@ -19,6 +19,7 @@ h1,h2,h3 {
 .header h1{
     text-align: left;
     font-family: Calibri, Book Antiqua, Tahoma, Verdana;
+    /*margin-bottom:40px; */
 }  
 
 
@@ -93,7 +94,7 @@ h1,h2,h3 {
 
 /*///////////  Work /////  */
 .work {
-    background-color: lightblue;
+    background-color: #f0ffff;
 }
 
 .work h1 {
@@ -123,7 +124,8 @@ h1,h2,h3 {
 ///////////// Contact_page ///*/
 #contact {
     width: 100%;
-    margin: 0 auto;
+    margin-top:0;
+    /*margin-bottom: 15px;*/
     font-family: Calibri, Book Antiqua, Tahoma, Verdana;
     font-size: 1.125em;
     text-align: left;
@@ -135,19 +137,29 @@ h1,h2,h3 {
     background-size:cover;
 }
 
-#contact .column {
+
+#contact  .column{
     width: 70%;
     height: auto;
-    display: inline-block; 
-    float: bottom;
-    padding: 0.625em 1.25em 0.625em 1.875em ;
+
+    padding: 0.625em 1.25em 0.625em 1.875em ;  
 }
 
+
+#contact .myContact {
+   font-family: Calibri;
+    font-size: 1.125em;   
+    font-weight: 400;
+    margin-left: 2em;
+    background-color: #f9c5bc; 
+    color: #654321;  
+}
+
+/*
 #contact .email {
     font-family: Calibri;
-    font-size: 1.125em;   /* 18px  */
+    font-size: 1.125em;   
     font-weight: 400;
-    padding: 0.625em 1.25em 0.625em 1.875em ;
     margin-left: 2em;
     background-color: #f9c5bc; 
     color: #654321;
@@ -155,19 +167,38 @@ h1,h2,h3 {
 
 #contact .mobile {
     font-family: Calibri;
-    font-size: 1.125em;   /* 18px  */
+    font-size: 1.125em;   
     font-weight: 400;
     margin-left: 2em;
+   /* padding: 0.625em 1.25em 0.625em 1.875em ;   
     background-color: #f9c5bc; 
     color: #654321;
+}  */
+
+#contact span:hover {
+        color: blue;  
 }
 
-#contact .thanks {
+.form-group {
     font-family: Calibri;
     font-size: 1.125em;   /* 18px  */
-    font-weight: 400;
+    font-weight: 400;   
+
+    width: 80%;
+    height: auto;  
+
 }
 
+
+.submit-button button:hover {
+    /* margin: 30px 0px;  
+    margin-bottom: 30px; */
+    color: #f50; 
+}
+
+/*.form-control {
+    width: 70%;
+}*/
 
 /* //////////// FAQ.html /////// */
 #faq {
@@ -296,15 +327,15 @@ h1,h2,h3 {
 .wrapper-video {
     font-size: 0.9em;  
     margin: auto;
-    padding: 3.625em 4.25em 3.625em 4.875em ;
+    padding: 15.625em 16.25em 15.625em 16.875em ;
   /*  width: 400px;
     height: 350px; */
 }
 
-/*.embed-responsive-item {
+.embed-responsive-item {
     width:  50%;
     height: 50%;
-}  */
+}  
 
 footer {
     bottom: 0;
@@ -341,7 +372,7 @@ footer {
     color: green;
 }  
 
-.page-footer-link a:hover {
+.page-footer-link a:hover img:hover {
     color: #f50;  
 }
 
