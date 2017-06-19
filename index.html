@@ -309,19 +309,19 @@
         <form> 
           <div class="form-group " >
             <label for="Name">Your Name *</label>  
-            <input class="form-control message-box" type="text" id="Name" title="Please enter your name" minlength="2" maxlength="30" required="required" title="Required Information" placeholder="Your name" >
+            <input class="form-control message-box" type="text" id="Name" title="Please enter your name" minlength="2" maxlength="30" required="required"  placeholder="Your name" >
           </div>
           <div class="form-group " >
-            <label for="Name">Company or Organisation </label>  
-            <input class="form-control message-box" type="text" id="Name" title="Please enter your company or organisation name" minlength="10" maxlength="40" placeholder="Your company or organisation"  >
+            <label for="Company">Company or Organisation </label>  
+            <input class="form-control message-box" type="text" id="Company" title="Please enter your company or organisation name"  maxlength="40" placeholder="Your company or organisation"  >
           </div>  
           <div class="form-group">
-              <label for="phone">Your Phone Number</label>
-              <input class="form-control" id="phone" type="tel" maxlength="100" placeholder="e.g. +99 888-888-8888" title="Desktop Phone or Mobile Phone" placeholder="Your mobile or phone number" >
+              <label for="phone">Phone Number (format: xxxx-xxxxxxxxxx)</label>
+              <input class="form-control" id="phone" type="text" pattern="^[+]{0,1}[0-9]{4}-[0-9]{10}$" placeholder="e.g. +9999-8888888888" title="Desktop Phone or Mobile Phone" placeholder="Your mobile or phone number" >
             </div>
          <div class="form-group " >   
             <label for="Email">Email address *</label>       
-            <input  class="form-control message-box" title="Please enter your email address" id="Email" type="email" required="required" title="Required Information" placeholder="Your Email address" >
+            <input  class="form-control message-box" title="Please enter your email address" id="Email" type="email" required="required"  placeholder="Your Email address" >
          </div>
          <div class="form-group " >  
            <label for="Message">Your Message</label>
@@ -347,7 +347,6 @@
     <h1>&nbsp; &nbsp; &nbsp; <b>Frequently Ask Questions </b></h1> 
     <br/>     <br/>
     </div>
-
   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="headingOne">
